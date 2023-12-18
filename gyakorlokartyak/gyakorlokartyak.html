@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szerb-magyar gyakorlókártyák</title>
+    <link rel="stylesheet" href="gyakorlokartyak.css" />
+  </head>
+  <body>
+    <h1 class="cim">GYAKORLÓKRÁTYÁK</h1>
+    <div class="container">
+      <div class="kartya" id="kartya0">
+        <div class="szerbszoveg" id="szerbszoveg0"></div>
+        <div class="magyarszoveg" id="magyarszoveg0"></div>
+      </div>
+      <div class="kartya" id="kartya1">
+        <div class="szerbszoveg" id="szerbszoveg1"></div>
+        <div class="magyarszoveg" id="magyarszoveg1"></div>
+      </div>
+      <div class="kartya" id="kartya2">
+        <div class="szerbszoveg" id="szerbszoveg2"></div>
+        <div class="magyarszoveg" id="magyarszoveg2"></div>
+      </div>
+      <div class="kartya" id="kartya3">
+        <div class="szerbszoveg" id="szerbszoveg3"></div>
+        <div class="magyarszoveg" id="magyarszoveg3"></div>
+      </div>
+      <div class="kartya" id="kartya4">
+        <div class="szerbszoveg" id="szerbszoveg4"></div>
+        <div class="magyarszoveg" id="magyarszoveg4"></div>
+      </div>
+    </div>
+
+    <div class="inputContainer">
+      <input
+        type="text"
+        name="név"
+        placeholder="Tippelj!"
+        class="input"
+        id="tipp"
+      />
+      <button onclick="oke()" class="ok">OK!</button>
+    </div>
+    <div class="gombContainer">
+      <button class="nemTudom" id="nemTudom" onclick="nemTudom()">
+        NEM TUDOM
+      </button>
+      <button class="csere" onclick="kartyacsere()">
+        CSERÉLD MEG A KÁRTYÁID!
+      </button>
+    </div>
+
+    <div class="pontszamContainer">
+      <p class="p">A Pontjaid Száma:</p>
+      <p class="p" id="pontok">0</p>
+    </div>
+    <script src="gyakorlokartyak.js"></script>
+  </body>
+</html>

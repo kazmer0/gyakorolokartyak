@@ -1,0 +1,126 @@
+* {
+  background: #1e6262;
+  margin: 0;
+  padding: 0;
+}
+.cim {
+  color: #ecfffb;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container {
+  background-color: #ecfffb;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kartya {
+  margin: 10px 5px;
+  width: 20%;
+  height: 80%;
+  background-color: #2d767f;
+  color: #ecfffb;
+  border-radius: 20px;
+  transition-duration: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kartya.forditas {
+  transform: rotateX(180deg);
+}
+.kartya .szerbszoveg {
+  font-size: 30px;
+  background-color:transparent;
+  display: flex;
+  position: absolute;
+  visibility: visible;
+}
+.kartya.forditas .szerbszoveg {
+  visibility: hidden;
+}
+.kartya .magyarszoveg {
+  font-size: 30px;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+.kartya.kartya.forditas .magyarszoveg {
+  transform: rotateX(180deg);
+  visibility: visible;
+}
+button {
+    border-radius: 20px;
+    margin:10px;
+  border-color: transparent;
+  background-color: #2d767f;
+}
+button:hover {
+  background: #1f5259;
+  border-width: 2%;
+  border-color: #ecfffb;
+  border-style: groove;
+}
+button:active {
+  color: #ecfffb;
+}
+.gombContainer {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.csere {
+  padding: 30px 60px;
+ 
+}
+
+.inputContainer {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  background-color: #ecfffb;
+  color: black;
+  height: 30px;
+  width: 250px;
+  border-color: transparent;
+  font-size: larger;
+}
+.ok {
+  height: 40px;
+  width: 70px; 
+}
+.pontszamContainer{
+   
+    height: 50px;
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.p{
+ color: #ecfffb;
+ font-size: 2rem;
+}
+.nemTudom{
+    background-color:#7f2d2d;
+    padding: 30px;
+ 
+}
+.nemTudom:hover{
+    background-color: #853f3f;
+}
