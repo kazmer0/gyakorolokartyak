@@ -1,0 +1,2 @@
+A "gyakorlokartyak" program egy vizuális jellegű tanulóprogram, amelyben a való életben használatos fizikai tanulókártyákat alósítottam meg a virtuális térben. A program célja, hogy a szerb szavakat memorizálja a felhasználó, ennek során minél több szavat megtanulhat, szókincse bővülhet. A program jelenleg 103 szóval rendelkezik, de a "szokereso" program segítségével az internetről kimásolt szavak és azok fordításai könnyen beilleszthetőek a programba.
+A program közel sincs a végleges formájához, de már felhasználható.
